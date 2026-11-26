@@ -47,15 +47,13 @@ guest@gnome:~$ grep -h '' workshop/*.md | shuf -n 5
 
 > **Strategies never send orders.** They publish an intent. Something else decides how to get there.
 >
-> **One counter.** Every tick, intent, order and fill in a session takes the next number. "What happened first?" has an answer.
+> **Globally sequenced.** Every tick, intent, order and fill in a session takes the next sequenced number. 
 >
-> **Nothing allocates.** The hot path is zero-garbage, and the build fails if that stops being true.
->
-> **Failing closed.** When something is uncertain, the system stops trading. Making the money back doesn't lift the halt.
+> **Nothing allocates.** The hot path is zero-garbage.
 >
 > **Same code, four places.** Research, backtest, paper and live run the identical runtime. Only the data and the fills change.
 
-<sub>The full notes live on the website. They aren't linked. You'll find them.</sub>
+<sub>The full notes live on the website, somewhere.</sub>
 
 <br>
 
@@ -76,9 +74,6 @@ If that sounds like your kind of problem: `contact@gnometrading.group`
 ```console
 guest@gnome:~$ ls repos/
 ls: cannot open directory 'repos/': Permission denied
-
-guest@gnome:~$ sudo !!
-guest is not in the sudoers file. This incident will be reported to the head gnome.
 
 guest@gnome:~$ █
 ```
