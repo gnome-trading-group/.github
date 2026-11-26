@@ -64,7 +64,7 @@ guest@gnome:~$ cat careers.md
 A small team where everyone owns systems end to end, from research to production.
 
 - You'd write the strategy, the risk check that stops it, and the dashboard that shows why.
-- Latency is measured, not guessed. So are fills.
+- Latency is measured, not guessed.
 - Production code is the backtest code.
 
 If that sounds like your kind of problem: `contact@gnometrading.group`
